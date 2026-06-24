@@ -1,0 +1,65 @@
+* {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    
+}
+
+.container {
+    margin: 130px auto;
+    justify-content: center;
+    padding: 50px;
+    border: 5px solid rgb(19, 120, 98);
+    width: 300px;
+    place-items: center;
+    border-radius: 5%;
+    background-color: rgb(95, 180, 162);
+    box-shadow: 5px 5px 20px rgb(95, 180, 162);
+   
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+#campoNome {
+    width: 200px;
+    height: 30px;
+    border: 3px solid rgb(19, 120, 98);
+    border-radius: 5px;
+    background-color: rgb(213, 213, 213);
+}
+
+#campoAltura {
+    width: 200px;
+    height: 30px;
+    border: 3px solid rgb(19, 120, 98);
+    border-radius: 5px;
+    background-color: rgb(213, 213, 213);
+}
+
+#campoPeso {
+    width: 200px;
+    height: 30px;
+    border: 3px solid rgb(19, 120, 98);
+    border-radius: 5px;
+    background-color: rgb(213, 213, 213);
+}
+
+#avaliar {
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(212, 76, 76);
+}
+
+#campoResultado {
+    width: 300px;
+    height: 60px;
+    border: 3px solid rgb(19, 120, 98);
+    border-radius: 5px;
+    background-color: rgb(213, 213, 213);
+}

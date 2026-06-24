@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice_Massa_Corporal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Conteudo principal (Container)-->
+    <div class="container">
+        <div class="title">
+            <h1>Bem-Vindo</h1>
+            <br>
+            <h2>Avalie a sua massa corporal</h2>
+        </div>
+
+        <div class="name">
+            <br><strong><h3><label for="name">Nome:</label></strong></br>
+            <input type="text" placeholder="Insira seu nome" autofocus id="campoNome" required>
+        </div>
+        <div class="height">
+            <br><strong><h3><label for="height">Altura:</label></strong>
+            <p><input type="number" placeholder="Insira sua altura" id="campoAltura" required></p>
+        </div>
+        <div class="weight">
+            <br><strong><h3><label for="weight">Peso:</label></strong>
+            <p><input type="number" placeholder="Insira o seu peso" id="campoPeso" required></p>
+        </div>
+        <div class="calculate">
+            <br> <button id="avaliar">Avaliar</button>
+        </div>
+
+        <div class="result">
+            <br><strong><h3><label for="campoResultado">Resultado:</label></strong>
+            <textarea name="resultado" id="campoResultado" readonly rows="3" ></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
